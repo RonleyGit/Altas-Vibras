@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #38598b;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+        a{
+            text-decoration: none;
+            color: black;
+            
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+                img{
+                    height: 80px;
+                    margin-right: 10px;
+                }
+            
+        }
+        nav{
+            ul{
+                li{
+            font-weight: 600;
+            padding: 5px;
+            list-style-type: none;
+            display: inline;
+            border-radius: 10px;
+            margin-right: 7px;
+            transition: all 300ms ease;
+            background-color: #a2a8d3;
+                a:hover{
+                color: white;
+                }
+            }
+        }
+    }
+}
+
