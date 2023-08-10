@@ -1,0 +1,31 @@
+/* Tipografia */
+
+/* Encabezado */
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav ul li{        
+        padding: 3px 0px;
+        margin: auto;
+    }
+}
+
+
+/* Pie de Pagina */
+
+@media screen and (max-width:800px) {
+    
+
+    .pie-pagina .grupo-1 .box figure{
+        width: 260px;
+    }
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
